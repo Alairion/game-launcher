@@ -1,0 +1,40 @@
+#ifndef ORIGINS_RESSOURCES_INCLUDED
+#define ORIGINS_RESSOURCES_INCLUDED
+
+#include <windows.h>
+
+#define LAUNCHER_MAJOR_VERSION 0
+#define LAUNCHER_MINOR_VERSION 1
+#define LAUNCHER_PATCH_VERSION 0
+#define LAUNCHER_TWEAK_VERSION 0
+
+#define MAKE_VERSION(major, minor, patch, tweak) "##major.##minor.##patch.##tweak"
+
+MAINICON ICON "assets/launcher.ico"
+
+1 VERSIONINFO
+FILEVERSION LAUNCHER_MAJOR_VERSION, LAUNCHER_MINOR_VERSION, LAUNCHER_PATCH_VERSION, LAUNCHER_TWEAK_VERSION
+PRODUCTVERSION LAUNCHER_MAJOR_VERSION, LAUNCHER_MINOR_VERSION, LAUNCHER_PATCH_VERSION, LAUNCHER_TWEAK_VERSION
+FILETYPE VFT_APP
+{
+    BLOCK "StringFileInfo"
+    {
+        BLOCK "040904E4"
+        {
+            VALUE "CompanyName", "Pok�mon Origins Project"
+            VALUE "LegalCopyright", ""
+            VALUE "FileVersion", MAKE_VERSION(LAUNCHER_MAJOR_VERSION, LAUNCHER_MINOR_VERSION, LAUNCHER_PATCH_VERSION, LAUNCHER_TWEAK_VERSION)
+            VALUE "ProductVersion", MAKE_VERSION(LAUNCHER_MAJOR_VERSION, LAUNCHER_MINOR_VERSION, LAUNCHER_PATCH_VERSION, LAUNCHER_TWEAK_VERSION)
+            VALUE "OriginalFilename", "launcher.exe"
+            VALUE "ProductName", "Pok�mon Origins Launcher"
+            VALUE "FileDescription", "Pok�mon Origins Fangame's Launcher"
+            VALUE "InternalName", "launcher.exe"
+        }
+    }
+    BLOCK "VarFileInfo"
+    {
+        VALUE "Translation", 0x409, 0x4e4 //language codes
+    }
+}
+
+#endif

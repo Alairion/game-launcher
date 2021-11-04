@@ -1,0 +1,27 @@
+<RCC>
+    <qresource prefix="/">
+        <file>assets/discord.png</file>
+        <file>assets/facebook.png</file>
+        <file>assets/pokemon_workshop.png</file>
+        <file>assets/title_no_shadow.png</file>
+        <file>assets/play.png</file>
+        <file>assets/download.png</file>
+        <file>assets/update.png</file>
+        <file>assets/news.png</file>
+        <file>assets/options.png</file>
+        <file>assets/credits.png</file>
+        <file>assets/background_0.png</file>
+        <file>assets/background_1.png</file>
+        <file>assets/background_2.png</file>
+        <file>assets/ball.png</file>
+        <file>assets/check_mark.png</file>
+        <file>assets/install.png</file>
+        <file>assets/downarrow.png</file>
+        <file>assets/uparrow.png</file>
+        <file>assets/background_s.png</file>
+        <file>assets/youtube.png</file>
+        <file>assets/launcher.ico</file>
+        <file>assets/save.png</file>
+        <file>assets/logs.png</file>
+    </qresource>
+</RCC>

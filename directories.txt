@@ -1,0 +1,6 @@
+launcher/launcher.exe
+launcher/game_version
+launcher/game
+launcher/game/Pokémon Origins.exe
+launcher/updater
+launcher/updater/origins_downloader.exe
