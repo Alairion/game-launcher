@@ -1,7 +1,7 @@
 # game-launcher
 
 A launcher made Qt for a fangame, it has a custom window frame combined with a simple design.
-It has a save manager, a web integration to read project website's articles directly from it and, of course, an updater (separated process).
+It has a save manager, a web integration to read project website's articles directly from it, an interface to change game settings and, of course, an updater (separated process).
 
 ## The launcher at launch
 
